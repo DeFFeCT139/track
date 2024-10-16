@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.2-new-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-165.000000, -285.000000)">
+        <g id="form" transform="translate(135.000000, 170.000000)" fill="#FC261C" fill-rule="nonzero">
+            <g id="Group-34">
+                <g id="Rectangle-19">
+                    <g id="list" transform="translate(11.000000, 105.000000)">
+                        <g id="search" transform="translate(9.000000, 0.000000)">
+                            <path d="M27,25.543 L22.644,21.187 C23.519,20.019 24.043,18.573 24.043,17.001 C24.043,13.135 20.909,10.001 17.043,10.001 C13.177,10.001 10.043,13.135 10.043,17.001 C10.043,20.867 13.177,24.001 17.043,24.001 C18.615,24.001 20.061,23.476 21.229,22.602 L25.585,26.958 L27,25.543 Z M12.043,17 C12.043,14.243 14.286,12 17.043,12 C19.8,12 22.043,14.243 22.043,17 C22.043,19.757 19.8,22 17.043,22 C14.286,22 12.043,19.757 12.043,17 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>time icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.6-new-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-80.000000, -363.000000)">
+        <g id="form" transform="translate(49.000000, 178.000000)" stroke-width="1.5">
+            <g id="Group-6" transform="translate(0.000000, 125.000000)">
+                <g id="add-time" transform="translate(20.000000, 24.000000)">
+                    <g id="Group-4" transform="translate(0.000000, 26.000000)">
+                        <g id="add" transform="translate(12.000000, 7.000000)">
+                            <g id="time-icon" transform="translate(0.000000, 4.000000)">
+                                <g id="Layer_1">
+                                    <path d="M7,14 C3.11111111,14 0,10.8888889 0,7 C0,3.11111111 3.11111111,0 7,0 C10.8888889,0 14,3.11111111 14,7 C14,10.8888889 10.8888889,14 7,14 Z" id="Shape" stroke="#000000" fill="#000000"></path>
+                                    <polyline id="Shape" stroke="#FFFFFF" points="7 1.46821535 7 7 11.2440739 7"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

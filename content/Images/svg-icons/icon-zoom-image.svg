@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1.23-Look-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-113.000000, -462.000000)">
+        <g id="form" transform="translate(49.000000, 178.000000)">
+            <g id="4" transform="translate(0.000000, 191.000000)">
+                <g id="photo" transform="translate(22.000000, 72.000000)">
+                    <g id="search" transform="translate(43.000000, 22.000000)">
+                        <circle id="Oval-5" stroke="#FFFFFF" stroke-width="2" cx="6" cy="6" r="6"></circle>
+                        <rect id="Rectangle-10" fill="#FFFFFF" transform="translate(13.181981, 13.181981) rotate(-45.000000) translate(-13.181981, -13.181981) " x="12.1819805" y="9.68198052" width="2" height="7"></rect>
+                        <rect id="Rectangle-11" fill="#FFFFFF" x="3" y="5" width="6" height="2"></rect>
+                        <rect id="Rectangle-12" fill="#FFFFFF" x="5" y="3" width="2" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="89" height="74" viewBox="0 0 89 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="           ">
+<g id="Card">
+<g id="Shape">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0615 13.6303V6.434C17.0615 3.75065 19.1968 1.55518 21.8066 1.55518H83.2552C85.865 1.55518 88.0002 3.75065 88.0002 6.434V47.5381C88.0002 50.2214 85.865 52.4169 83.2552 52.4169H17.0615" fill="#FF2200"/>
+<path d="M17.0615 13.6303V6.434C17.0615 3.75065 19.1968 1.55518 21.8066 1.55518H83.2552C85.865 1.55518 88.0002 3.75065 88.0002 6.434V47.5381C88.0002 50.2214 85.865 52.4169 83.2552 52.4169H17.0615L17.0615 13.6303Z" stroke="black" stroke-width="2"/>
+</g>
+<g id="Coin">
+<ellipse id="Oval" cx="19.8373" cy="52.8345" rx="18.8378" ry="19.4669" fill="#F2F2F2" stroke="black" stroke-width="2"/>
+<path id="Shape_2" d="M15.2183 62.507V43.1626H22.0899C24.8149 43.1626 26.9475 45.4888 26.9475 48.1824C26.9475 50.8759 24.6964 53.2021 22.0899 53.2021" stroke="black" stroke-width="2"/>
+<path id="Shape_3" d="M12.6118 52.2017C12.0595 52.2017 11.6118 52.6494 11.6118 53.2017C11.6118 53.7539 12.0595 54.2017 12.6118 54.2017V52.2017ZM22.09 52.2017H12.6118V54.2017H22.09V52.2017Z" fill="black"/>
+<path id="Shape_4" d="M22.09 57.374H12.6118" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</g>
+<rect id="Rectangle 173" x="17.0615" y="10.312" width="70.9387" height="13.4376" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+<path id="Shape_5" d="M65.915 42.938H80.3716" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Shape_6" d="M59.2231 42.938H53.0039" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

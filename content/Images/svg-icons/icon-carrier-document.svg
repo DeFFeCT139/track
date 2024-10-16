@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>single-folded-content</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Card_view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card_view:done_and_wait_documents" transform="translate(-55.000000, -425.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1000" height="2346"></rect>
+            <rect id="Body_border" stroke="#D9D9D9" x="35.5" y="185.5" width="929" height="1961" rx="4"></rect>
+            <g id="Group-13" transform="translate(55.000000, 384.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5">
+                <g id="single-folded-content" transform="translate(0.000000, 41.000000)">
+                    <polyline id="Path" points="9.59259259 0.258064516 9.59259259 4.38709677 13.7407407 4.38709677"></polyline>
+                    <polygon id="Path" points="9.59259259 0.258064516 0.259259259 0.258064516 0.259259259 15.7419355 13.7407407 15.7419355 13.7407407 4.38709677"></polygon>
+                    <path d="M3.37037037,11.0967742 L10.6296296,11.0967742" id="Path"></path>
+                    <path d="M3.37037037,8 L10.6296296,8" id="Path"></path>
+                    <path d="M3.37037037,4.90322581 L6.48148148,4.90322581" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

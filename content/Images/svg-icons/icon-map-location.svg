@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Local_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components/Adress_and_time:default" transform="translate(-568.000000, -158.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Map_button" transform="translate(548.000000, 144.000000)">
+                <path d="M25.5,14 C22.4592857,14 20,16.3475 20,19.25 C20,23.1875 25.5,29 25.5,29 C25.5,29 31,23.1875 31,19.25 C31,16.3475 28.5407143,14 25.5,14 Z M25.5,21.125 C24.4157143,21.125 23.5357143,20.285 23.5357143,19.25 C23.5357143,18.215 24.4157143,17.375 25.5,17.375 C26.5842857,17.375 27.4642857,18.215 27.4642857,19.25 C27.4642857,20.285 26.5842857,21.125 25.5,21.125 Z" id="Local_icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

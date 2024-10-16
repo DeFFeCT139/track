@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15" height="15" rx="2"></rect>
+    </defs>
+    <g id="1.18-Look-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-70.000000, -1644.000000)" opacity="0.900000036">
+        <g id="form" transform="translate(49.000000, 178.000000)">
+            <g id="Group-11" transform="translate(0.000000, 1366.000000)">
+                <g id="Group-9" transform="translate(21.000000, 66.000000)">
+                    <g id="Group-5" transform="translate(0.000000, 30.000000)">
+                        <g id="Group-10" transform="translate(0.000000, 4.000000)">
+                            <g id="Rectangle">
+                                <use fill="#D9D9D9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#D9D9D9" stroke-width="1" x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                            </g>
+                            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" transform="translate(7.634405, 7.093440) rotate(-270.000000) translate(-7.634405, -7.093440) " points="4.54096501 2.45903499 10.7278452 8.64591521 7.64591521 11.7278452"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

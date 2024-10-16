@@ -1,0 +1,21 @@
+<svg width="98" height="78" viewBox="0 0 98 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Card Coin">
+<g id="Card">
+<path id="Vector" d="M22 6.08393V13.5827L22.1263 48.9858C22.1263 51.7053 24.4165 53.9303 27.2157 53.9303L46.4494 54H91.0502C93.7726 54 96 51.7122 96 48.9161V6.08393C96 3.28777 93.7726 1 91.0502 1H26.9498C24.2274 1 22 3.28777 22 6.08393Z" fill="#FF2200" stroke="black" stroke-width="2"/>
+<g id="Group 371">
+<rect id="Rectangle 173" x="22.0659" y="11.2695" width="74" height="14" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+</g>
+<path id="Shape" d="M71.6885 45.8606H87.0159" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Shape_2" d="M64.5938 45.8606H58" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Coin">
+<circle id="Oval" cx="21" cy="57" r="20" fill="#F2F2F2" stroke="black" stroke-width="2"/>
+<circle id="Oval_2" cx="21" cy="57" r="16" stroke="black" stroke-width="2"/>
+<g id="&#226;&#130;&#189;">
+<path id="Shape_3" d="M16.468 67V48H23.6577C26.5088 48 28.7401 50.2848 28.7401 52.9304C28.7401 55.5759 26.3849 57.8608 23.6577 57.8608" stroke="#FF2200" stroke-width="2"/>
+<path id="Shape_4" d="M13.7402 56.8604C13.1879 56.8604 12.7402 57.3081 12.7402 57.8604C12.7402 58.4126 13.1879 58.8604 13.7402 58.8604V56.8604ZM23.6571 56.8604H13.7402V58.8604H23.6571V56.8604Z" fill="#FF2200"/>
+<path id="Shape_5" d="M23.6571 61.9578H13.7402" stroke="#FF2200" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

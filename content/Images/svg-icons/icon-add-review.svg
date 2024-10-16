@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,4.00069986 C0,1.79117434 1.79821558,0 3.99825565,0 L924.001744,0 C926.20992,0 928,1.79366826 928,4.00069986 L928,166 L0,166 L0,4.00069986 Z" id="path-1"></path>
+        <filter x="-0.1%" y="-0.3%" width="100.1%" height="101.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.850980392   0 0 0 0 0.850980392   0 0 0 0 0.850980392  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Card_view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card_view:done_and_wait_documents" transform="translate(-190.000000, -310.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1000" height="2346"></rect>
+            <rect id="Body_border" stroke="#D9D9D9" x="35.5" y="185.5" width="929" height="1961" rx="4"></rect>
+            <g id="Group-20-Copy-8" transform="translate(36.000000, 186.000000)">
+                <g id="Group-20-Copy">
+                    <g id="Mask-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F9F9FB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M170.4,136.9 C171.2,135.6 171.6,134.1 171.6,132.5 C171.6,127.8 167.8,124 163.1,124 C158.4,124 154.6,127.8 154.6,132.5 C154.6,137.2 158.4,141 163.1,141 C164.8,141 166.4,140.5 167.8,139.6 C169.4,140.5 171.3,141 173.5,141 C171.9,139.9 170.9,138.5 170.4,136.9 Z M163.7,137.4 L162.2,137.4 L162.2,135.7 L163.7,135.7 L163.7,137.4 Z M163.7,134.6 L162.2,134.6 L162.2,128 L163.7,128 L163.7,134.6 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

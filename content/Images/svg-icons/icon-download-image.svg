@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1.23-Look-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-79.000000, -481.000000)">
+        <g id="form" transform="translate(49.000000, 178.000000)" fill="#FFFFFF">
+            <g id="4" transform="translate(0.000000, 191.000000)">
+                <g id="photo" transform="translate(22.000000, 72.000000)">
+                    <g id="Group-3" transform="translate(8.000000, 40.000000)">
+                        <rect id="Combined-Shape" x="4" y="0" width="4" height="8" rx="1"></rect>
+                        <path d="M6.71184039,12.2881596 C6.3187018,12.6812982 5.67741394,12.6774139 5.28815961,12.2881596 L0.711840391,7.71184039 C0.318701799,7.3187018 0.455760956,7 1.00247329,7 L10.9975267,7 C11.5511774,7 11.6774139,7.32258606 11.2881596,7.71184039 L6.71184039,12.2881596 Z" id="Triangle"></path>
+                        <rect id="Rectangle-4" x="0" y="14" width="12" height="2" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

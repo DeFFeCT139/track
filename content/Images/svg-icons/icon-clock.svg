@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="History_Dropdown" transform="translate(-936.000000, -472.000000)" stroke="#808080">
+            <g id="Clock" transform="translate(936.000000, 472.000000)">
+                <g id="Group-8-Copy-2">
+                    <path d="M2.69217595,5.02814667 C2.25016575,4.73011778 1.98611111,4.23164 1.98611111,3.69481778 L1.98611111,0.991666667 L9.31369281,0.991666667 L9.31369281,3.69481778 C9.31369281,4.23164 9.04963817,4.73011778 8.60762797,5.02814667 L5.64990196,6.91701934 L2.69217595,5.02814667 Z" id="Path" stroke-width="0.86628663"></path>
+                    <path d="M1.98611111,10.26732 C1.98611111,9.73049778 2.25016575,9.23202 2.69217595,8.93399111 L5.64990196,7.06854506 L8.60762797,8.93399111 C9.04963817,9.23202 9.31369281,9.73049778 9.31369281,10.26732 L9.31369281,12.9704711 L1.98611111,12.9704711 L1.98611111,10.26732 Z" id="Path" stroke-width="0.86628663"></path>
+                    <path d="M0.558764117,0.433143315 L0.558764117,0.955189995 L10.4904678,0.955189995 L10.4904678,0.433143315 L0.558764117,0.433143315 Z" id="Rectangle-14" stroke-width="0.86628663"></path>
+                    <path d="M0.56585872,12.982434 L0.56585872,13.5044807 L10.5022011,13.5044807 L10.5022011,12.982434 L0.56585872,12.982434 Z" id="Rectangle-14-Copy" stroke-width="0.86628663"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Driver_requisites-Copy" transform="translate(-804.000000, -327.000000)" fill="#808080" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(40.000000, 311.000000)">
+                <g id="Group-12">
+                    <g id="Group-4">
+                        <g id="Group" transform="translate(764.000000, 11.000000)">
+                            <g id="ic_update_24px" transform="translate(0.000000, 5.000000)">
+                                <path d="M10,3.95555556 L6.23333333,3.95555556 L7.75555556,2.38888889 C6.23888889,0.888888889 3.78333333,0.833333333 2.26666667,2.33333333 C0.75,3.83888889 0.75,6.26666667 2.26666667,7.77222222 C3.78333333,9.27777778 6.23888889,9.27777778 7.75555556,7.77222222 C8.51111111,7.02777778 8.88888889,6.15555556 8.88888889,5.05555556 L10,5.05555556 C10,6.15555556 9.51111111,7.58333333 8.53333333,8.55 C6.58333333,10.4833333 3.41666667,10.4833333 1.46666667,8.55 C-0.477777778,6.62222222 -0.494444444,3.48888889 1.45555556,1.56111111 C3.40555556,-0.366666667 6.53333333,-0.366666667 8.48333333,1.56111111 L10,0 L10,3.95555556 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

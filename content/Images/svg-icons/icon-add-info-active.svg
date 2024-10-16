@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>add info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.18-new-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-433.000000, -420.000000)">
+        <g id="form" transform="translate(49.000000, 178.000000)" fill="#FC261C">
+            <g id="Group-6" transform="translate(0.000000, 125.000000)">
+                <g id="A" transform="translate(20.000000, 107.000000)">
+                    <path d="M364,12.0058587 C364,10.8980535 364.890925,10 365.997422,10 L381.002578,10 C382.105724,10 383,10.8970601 383,12.0058587 L383,21.9941413 C383,23.1019465 382.112798,24 380.998021,24 L368.817123,24 L364.839079,26.6521222 C364.375668,26.9610733 364,26.7649785 364,26.2129845 L364,25.9973867 C364,24.8942605 364,23.1029399 364,21.9941413 L364,12.0058587 Z M374.6,17.6 L376.7,17.6 L376.7,16.1 L374.6,16.1 L374.6,14 L373.1,14 L373.1,16.1 L371,16.1 L371,17.6 L373.1,17.6 L373.1,19.7 L374.6,19.7 L374.6,17.6 Z" id="add-info"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
