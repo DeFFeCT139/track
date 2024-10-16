@@ -1,0 +1,81 @@
+#urgent-order-popup {
+  width: 370px;
+  padding: 0px;
+  box-sizing: border-box; }
+  #urgent-order-popup .urgent-order-close {
+    display: none; }
+  #urgent-order-popup .popup-wrapper {
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px; }
+    #urgent-order-popup .popup-wrapper .popup-container {
+      padding: 0px;
+      border-radius: 0; }
+    #urgent-order-popup .popup-wrapper .urgent-order-img {
+      margin: 0 auto;
+      display: block; }
+    #urgent-order-popup .popup-wrapper .urgent-order-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      max-width: 320px;
+      margin: 20px auto 0; }
+    #urgent-order-popup .popup-wrapper .urgent-order-wrapper {
+      margin-top: 7px;
+      line-height: 24px;
+      max-width: 282px;
+      line-height: 22px;
+      margin: 7px auto 0; }
+      #urgent-order-popup .popup-wrapper .urgent-order-wrapper .urgent-order-text-block {
+        margin-top: 24px; }
+    #urgent-order-popup .popup-wrapper .urgent-order-button-wrapper {
+      margin-top: 5px; }
+    #urgent-order-popup .popup-wrapper .btn-cancel {
+      background-color: #fff;
+      border-radius: 2px;
+      border: solid 1px #d9d9d9;
+      font-family: Open Sans, sans-serif;
+      height: 45px;
+      padding-bottom: 5px;
+      vertical-align: middle;
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+      padding-left: 17px;
+      padding-right: 18px;
+      letter-spacing: normal;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px; }
+      #urgent-order-popup .popup-wrapper .btn-cancel:hover {
+        background-color: #f2f2f2; }
+
+@media (max-width: 749px) {
+  #urgent-order-popup {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px; }
+    #urgent-order-popup .urgent-order-close {
+      display: block;
+      position: absolute;
+      right: 20px;
+      font-size: 15px;
+      top: 15px; }
+    #urgent-order-popup .popup-wrapper {
+      font-size: 15px;
+      padding: 20px;
+      padding-top: 30px; }
+      #urgent-order-popup .popup-wrapper .popup-container {
+        padding: 0; }
+      #urgent-order-popup .popup-wrapper .urgent-order-img {
+        width: auto; }
+      #urgent-order-popup .popup-wrapper .urgent-order-button-wrapper {
+        margin-top: 25px; }
+        #urgent-order-popup .popup-wrapper .urgent-order-button-wrapper .btn-cancel {
+          margin-top: 0; } }

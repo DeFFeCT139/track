@@ -1,0 +1,186 @@
+.header-instruction {
+  background: #f9f6f0;
+  padding-top: 40px;
+  position: relative; }
+  .header-instruction .wrapper {
+    max-width: 700px;
+    padding-bottom: 40px; }
+  .header-instruction .instruction-subtitle {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #808080; }
+  .header-instruction h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 15px;
+    margin-bottom: 0px; }
+  .header-instruction .progress {
+    height: 3px;
+    border-radius: 2px;
+    background-color: #ff2200;
+    transition: .5s;
+    position: absolute;
+    bottom: 0px; }
+
+.instruction-page-container {
+  font-size: 15px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding-bottom: 117px; }
+  .instruction-page-container h2 {
+    font-size: 30px;
+    line-height: 41px; }
+  .instruction-page-container h3 {
+    font-size: 20px;
+    line-height: 27px; }
+  .instruction-page-container .numbered-list-item {
+    padding-bottom: 20px;
+    font-size: 0px; }
+    .instruction-page-container .numbered-list-item div {
+      display: inline-block;
+      font-size: 15px; }
+    .instruction-page-container .numbered-list-item .numbered-list-item-number {
+      border-radius: 50%;
+      text-align: center;
+      height: 24px;
+      width: 24px;
+      color: #fff;
+      background: #000;
+      margin-right: 8px; }
+      .instruction-page-container .numbered-list-item .numbered-list-item-number.number-h2 {
+        transform: translateY(-4px); }
+      .instruction-page-container .numbered-list-item .numbered-list-item-number span {
+        font-weight: 700; }
+    .instruction-page-container .numbered-list-item .numbered-list-item-text {
+      max-width: calc(100% - 32px); }
+    .instruction-page-container .numbered-list-item h2 {
+      margin-bottom: 0px; }
+  .instruction-page-container .fixed-button-row {
+    height: 77px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    z-index: 1000;
+    border-left: none;
+    border-right: none;
+    max-width: 100%; }
+    .instruction-page-container .fixed-button-row .button-wrapper {
+      max-width: 700px;
+      margin: auto;
+      white-space: nowrap; }
+      .instruction-page-container .fixed-button-row .button-wrapper button {
+        display: inline-block;
+        margin-top: 16px; }
+        .instruction-page-container .fixed-button-row .button-wrapper button.width100 {
+          width: 100%; }
+        .instruction-page-container .fixed-button-row .button-wrapper button.width36 {
+          width: 36%; }
+        .instruction-page-container .fixed-button-row .button-wrapper button.width60 {
+          width: 60%;
+          margin-left: 4%; }
+        .instruction-page-container .fixed-button-row .button-wrapper button.back-button {
+          background-color: #fff;
+          border: 1px solid #d9d9d9;
+          color: black; }
+  .instruction-page-container .gray-box {
+    background: #f2f2f2;
+    border-radius: 6px;
+    padding: 16px 32px 16px 32px;
+    margin: 40px 0px; }
+    .instruction-page-container .gray-box.padding16 {
+      padding: 16px; }
+  .instruction-page-container img {
+    margin: 40px auto 40px;
+    display: block;
+    border: 1px solid #d9d9d9; }
+    .instruction-page-container img.width100 {
+      width: 335px; }
+  .instruction-page-container .image-wrapper {
+    position: relative;
+    height: 270px;
+    overflow: hidden; }
+    .instruction-page-container .image-wrapper:hover {
+      cursor: pointer; }
+    .instruction-page-container .image-wrapper .image-overlay {
+      background: rgba(0, 0, 0, 0.6);
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .instruction-page-container .image-wrapper .image-overlay .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content; }
+        .instruction-page-container .image-wrapper .image-overlay .overlay-text span {
+          color: white;
+          font-weight: 700; }
+        .instruction-page-container .image-wrapper .image-overlay .overlay-text img {
+          margin-top: 0;
+          margin-bottom: 12px;
+          border: 0; }
+  .instruction-page-container .press-image {
+    margin: 15px auto 30px;
+    color: #808080;
+    text-align: center; }
+  .instruction-page-container .scroll-down-tip {
+    display: none; }
+
+@media (max-width: 749px) {
+  .header-instruction {
+    padding-top: 35px; }
+    .header-instruction .wrapper {
+      padding: 0px 15px 30px 15px; }
+    .header-instruction .instruction-subtitle {
+      font-size: 15px; }
+    .header-instruction h1 {
+      font-size: 30px;
+      line-height: 36px;
+      margin-top: 15px;
+      margin-bottom: 0px; }
+  .instruction-page-container {
+    margin: 30px 15px; }
+    .instruction-page-container h2, .instruction-page-container h3 {
+      font-size: 20px;
+      line-height: 27px;
+      margin: 15px auto; }
+      .instruction-page-container h2.mobile-margin-top20, .instruction-page-container h3.mobile-margin-top20 {
+        margin-top: 20px; }
+    .instruction-page-container h3 {
+      margin-top: 30px; }
+    .instruction-page-container .fixed-button-row .button-wrapper {
+      margin: auto 15px; }
+    .instruction-page-container img.width100 {
+      width: 100%; }
+    .instruction-page-container .gray-box {
+      padding: 16px; }
+    .instruction-page-container .scroll-down-tip {
+      position: fixed;
+      bottom: 105px;
+      right: 50%;
+      transform: translateX(50%);
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      height: 40px;
+      width: 140px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: scrolltip 1s infinite; }
+  @keyframes scrolltip {
+    0% {
+      bottom: 105px; }
+    40% {
+      bottom: 90px; }
+    80% {
+      bottom: 105px; } } }

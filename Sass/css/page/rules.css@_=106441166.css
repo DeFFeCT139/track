@@ -1,0 +1,209 @@
+.rules, .insurance-page-container, .privacy-policy-container {
+  max-width: 906px;
+  font-size: 15px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto; }
+  .rules a, .insurance-page-container a, .privacy-policy-container a {
+    text-decoration: none;
+    cursor: pointer; }
+  .rules h1, .insurance-page-container h1, .privacy-policy-container h1 {
+    margin: 40px 0; }
+  .rules h2, .insurance-page-container h2, .privacy-policy-container h2 {
+    margin-top: 33px;
+    margin-bottom: 22px; }
+  .rules h4, .insurance-page-container h4, .privacy-policy-container h4 {
+    font-size: 16px;
+    font-weight: 700; }
+  .rules .part:last-child p:last-child, .rules .part:last-child h4:last-child, .rules .part:last-child ul:last-child, .insurance-page-container .part:last-child p:last-child, .insurance-page-container .part:last-child h4:last-child, .insurance-page-container .part:last-child ul:last-child, .privacy-policy-container .part:last-child p:last-child, .privacy-policy-container .part:last-child h4:last-child, .privacy-policy-container .part:last-child ul:last-child {
+    margin-bottom: 0; }
+  .rules .rules-links a, .insurance-page-container .rules-links a, .privacy-policy-container .rules-links a {
+    display: block;
+    color: black;
+    line-height: 1.9;
+    font-size: inherit; }
+    .rules .rules-links a:hover, .rules .rules-links a:active, .rules .rules-links a.active, .insurance-page-container .rules-links a:hover, .insurance-page-container .rules-links a:active, .insurance-page-container .rules-links a.active, .privacy-policy-container .rules-links a:hover, .privacy-policy-container .rules-links a:active, .privacy-policy-container .rules-links a.active {
+      color: #ff2200; }
+  .rules .content a, .insurance-page-container .content a, .privacy-policy-container .content a {
+    color: #ff2200; }
+
+.rules p, .rules h4, .rules ul {
+  margin-top: 0;
+  margin-bottom: 13px;
+  line-height: 1.4; }
+
+.rules h3 {
+  font-size: 22px !important; }
+
+.rules ul {
+  margin: 0;
+  padding-left: 34px; }
+  .rules ul:not(.ordinary-ul) li {
+    list-style-type: none; }
+    .rules ul:not(.ordinary-ul) li:before {
+      content: '\2014';
+      position: absolute;
+      margin-left: -20px;
+      font-weight: 600; }
+
+.oferta-container {
+  padding-bottom: 0px; }
+
+.oferta-link {
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 20px !important; }
+  .oferta-link:hover {
+    color: #ff2200 !important; }
+
+.privacy-policy-container .part, .privacy-policy-container p, .privacy-policy-container ul, .privacy-policy-container .insurance-arrow-container, .privacy-policy-container .insurance-page-note,
+.insurance-page-container .part,
+.insurance-page-container p,
+.insurance-page-container ul,
+.insurance-page-container .insurance-arrow-container,
+.insurance-page-container .insurance-page-note {
+  margin-bottom: 35px; }
+
+.privacy-policy-container h3,
+.insurance-page-container h3 {
+  font-size: 20px !important;
+  margin-bottom: 8px; }
+
+.privacy-policy-container p, .privacy-policy-container li,
+.insurance-page-container p,
+.insurance-page-container li {
+  line-height: 25px;
+  margin-top: 0; }
+
+.privacy-policy-container ul,
+.insurance-page-container ul {
+  margin-top: 0;
+  padding-left: 14px; }
+  .privacy-policy-container ul li,
+  .insurance-page-container ul li {
+    list-style-type: none; }
+    .privacy-policy-container ul li:not(:last-child),
+    .insurance-page-container ul li:not(:last-child) {
+      margin-bottom: 10px; }
+    .privacy-policy-container ul li:before,
+    .insurance-page-container ul li:before {
+      content: '\2013';
+      position: absolute;
+      margin-left: -14px; }
+
+.privacy-policy-container .insurance-arrow-container,
+.insurance-page-container .insurance-arrow-container {
+  display: inline-block; }
+  .privacy-policy-container .insurance-arrow-container svg,
+  .insurance-page-container .insurance-arrow-container svg {
+    stroke: #ff2200;
+    stroke-width: 1.5px; }
+    .privacy-policy-container .insurance-arrow-container svg.opened,
+    .insurance-page-container .insurance-arrow-container svg.opened {
+      transform: rotateX(180deg); }
+
+.privacy-policy-container .insurance-page-note,
+.insurance-page-container .insurance-page-note {
+  padding: 15px 20px;
+  line-height: 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08); }
+
+.privacy-policy-container .insurance-page-file a,
+.insurance-page-container .insurance-page-file a {
+  display: flex;
+  align-items: center;
+  color: black; }
+  .privacy-policy-container .insurance-page-file a:hover,
+  .insurance-page-container .insurance-page-file a:hover {
+    color: #ff2200; }
+    .privacy-policy-container .insurance-page-file a:hover svg path,
+    .insurance-page-container .insurance-page-file a:hover svg path {
+      fill: #fff; }
+      .privacy-policy-container .insurance-page-file a:hover svg path:first-child,
+      .insurance-page-container .insurance-page-file a:hover svg path:first-child {
+        fill: #ff2200; }
+      .privacy-policy-container .insurance-page-file a:hover svg path:nth-child(2),
+      .insurance-page-container .insurance-page-file a:hover svg path:nth-child(2) {
+        fill: #ea5c5c; }
+
+.privacy-policy-container .insurance-page-file svg,
+.insurance-page-container .insurance-page-file svg {
+  margin-right: 10px;
+  min-width: 24px; }
+  .privacy-policy-container .insurance-page-file svg path,
+  .insurance-page-container .insurance-page-file svg path {
+    fill: #b3b3b3; }
+  .privacy-policy-container .insurance-page-file svg path:first-child,
+  .insurance-page-container .insurance-page-file svg path:first-child {
+    fill: #e6e6e6; }
+
+.privacy-policy-container .insurance-small-margin,
+.insurance-page-container .insurance-small-margin {
+  margin-bottom: 12px; }
+
+.privacy-policy-container p {
+  margin-bottom: 20px; }
+
+@media (max-width: 999px) {
+  .rules, .insurance-page-container, .privacy-policy-container {
+    max-width: 100%;
+    margin: 0 40px; } }
+
+@media (max-width: 749px) {
+  .insurance-page-container .part, .insurance-page-container p, .insurance-page-container ul, .insurance-page-container .insurance-page-note {
+    margin-bottom: 30px; }
+  .rules, .insurance-page-container, .privacy-policy-container {
+    margin: 0 10px; }
+    .rules p.last-update span, .insurance-page-container p.last-update span, .privacy-policy-container p.last-update span {
+      display: block; }
+    .rules .rules-links, .insurance-page-container .rules-links, .privacy-policy-container .rules-links {
+      font-size: 15px; }
+      .rules .rules-links a, .insurance-page-container .rules-links a, .privacy-policy-container .rules-links a {
+        line-height: 1.37;
+        margin-bottom: 9px; }
+    .rules h1, .insurance-page-container h1, .privacy-policy-container h1 {
+      font-size: 28px;
+      margin-top: 26px;
+      margin-bottom: 24px;
+      line-height: 1.36; }
+    .rules h2, .insurance-page-container h2, .privacy-policy-container h2 {
+      font-size: 24px;
+      margin-top: 21px;
+      margin-bottom: 15px;
+      line-height: 1.38; } }
+
+.rules, .help-check-page-container {
+  max-width: 990px; }
+  .rules h1, .help-check-page-container h1 {
+    margin: 30px 0; }
+  .rules h2, .help-check-page-container h2 {
+    font-size: 30px; }
+  .rules h3, .help-check-page-container h3 {
+    margin-bottom: 22px; }
+  .rules a, .help-check-page-container a {
+    text-decoration: underline; }
+  .rules p, .help-check-page-container p {
+    margin-bottom: 20px; }
+  .rules ul li, .help-check-page-container ul li {
+    margin-bottom: 20px !important; }
+  .rules .service-calc-button, .help-check-page-container .service-calc-button {
+    width: 260px; }
+  .rules .width750, .help-check-page-container .width750 {
+    max-width: 750px; }
+
+@media (max-width: 749px) {
+  .help-check-page-container .part, .help-check-page-container p, .help-check-page-container ul {
+    margin-bottom: 30px; }
+  .rules, .insurance-page-container {
+    margin: 0 10px; }
+    .rules h1, .insurance-page-container h1 {
+      margin-top: 26px;
+      margin-bottom: 24px; }
+    .rules h2, .insurance-page-container h2 {
+      font-size: 24px; }
+    .rules img, .insurance-page-container img {
+      max-width: 100%;
+      height: auto; } }
+
+.delete-padding-10px .recall-new .question .question-container {
+  padding-left: 0; }
