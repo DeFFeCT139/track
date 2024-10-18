@@ -20924,7 +20924,26 @@ footer.footer:not(.lk-footer):not(.lk-carrier-footer) .footer-address-new {
 .companies .companies-features h2 {
     margin-bottom: 49px
 }
-
+@font-face {
+    font-family: 'Afolkalips_Swash';
+    src: url(font/Afolkalips_v1.ttf);
+}
+.logo-wiv{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.logo-wiv > img{ 
+    width: 60px;
+    position: absolute;
+    top: -15px;
+}
+.logo-wiv > div{
+    margin-left: 70px;
+    font-size: 40px;
+    line-height: 15px;
+    font-family: 'Afolkalips_Swash';
+}
 .companies .companies-feature {
     display: inline-block;
     font-size: 15px;

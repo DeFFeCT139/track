@@ -61,34 +61,19 @@
                         </div>
                         <div class="wrapper">
                             <div class="header-logo logo">
-                                <a alt="Gettruck" href="index.html"><svg>
-                                        <use xlink:href="#logo"></use>
-                                    </svg></a>
+                                <a class="logo-wiv" href="index.html">
+                                    <img src="./content/Images/1. Логотип.jpg" alt="">
+                                    <div>ТК ЮНИАЛ</div>
+                                </a>
                             </div>
                             <div class="header-user-types display-flex hide-mobile"
                                 ng-class="{'hidden': pageType != loginTypes.Carrier && pageType != loginTypes.CarrierCompany}">
                                 <div class="user-type-container">
-                                    <div class="user-type" ng-class="pageType == loginTypes.Carrier ? 'active': ''">
-                                        <a
-                                            ng-href="{{carrier2 ? loginUrls[loginTypes.Carrier2] : loginUrls[loginTypes.Carrier]}}">Водителям</a>
-                                    </div>
-                                </div>
-                                <div class="user-type-container">
-                                    <div class="user-type"
-                                        ng-class="pageType == loginTypes.CarrierCompany ? 'active': ''">
-                                        <a
-                                            ng-href="{{carrier2 ? loginUrls[loginTypes.CarrierCompany2] : loginUrls[loginTypes.CarrierCompany]}}">
-                                            Транспортным
-                                            <sub>компаниям</sub>
-                                        </a>
-                                    </div>
+                                
                                 </div>
                             </div>
                             <div class="header-tel-container">
-                                <div ng-if="forCarriers" class="header-tel"><a href="tel:+74953745334">8 (495)
-                                        374-53-34</a></div>
-                                <div ng-if="!forCarriers && !IS_TK_SUBDOMAIN" class="header-tel"><a class="mgo-number"
-                                        href="tel:+74991806317">8 (499) 180-63-17</a></div>
+                                <div class="header-tel"><a href="tel:+74991806317">8 (499) 180-63-17</a></div>
                             </div>
                             <div class="header-right-side">
                                 <div class="user-type-container selected-city-wrapper hide-tablet-wide"
@@ -970,33 +955,6 @@
                                                                                 чел</span>
                                                                         </div>
                                                                     </div>
-
-                                                                    <!-- <div class="row" ng-if="route.lifting == true ">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Подъем/спуск мебели без лифта</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little"></span>
-            </div>
-        </div>
-
-        <div class="row" ng-if="route.furnitureDisassembly == true">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Сборка/разборка мебели</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little"></span>
-            </div>
-        </div>
-
-        <div class="row" ng-if="route.rigging == true">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Такелаж</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little"></span>
-            </div>
-        </div> -->
                                                                 </div>
                                                                 <div class="ccol ccol-12"
                                                                     ng-if="addonsSettings.forwarding">
@@ -1457,24 +1415,6 @@
                                                                                 3, ' ')}} ₽</span>
                                                                         </div>
                                                                     </div>
-
-                                                                    <!-- <div class="row">
-            <div class="ccol ccol-details-order-1">
-                <span class="details-title little">Грузчики </span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little">{{route.loadersCount}} чел</span>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little"><sub class="tariff-text"></sub> </span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little">{{route.loadersCount}}x{{route.loadersHourPrice}} ₽/ч</span>
-            </div>
-        </div> -->
                                                                     <div ng-show="cargoWorks" class="row">
                                                                         <div
                                                                             class="ccol ccol-details-order-1 line-height16">
@@ -1496,34 +1436,6 @@
                                                                                 3, ' ')}} ₽</span>
                                                                         </div>
                                                                     </div>
-
-                                                                    <!-- <div class="row" ng-if="route.lifting == true ">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Подъем/спуск мебели без лифта</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little">{{route.loaders}}x{{route.liftingHourPrice}} ₽/ч</span>
-            </div>
-        </div>
-
-        <div class="row" ng-if="route.furnitureDisassembly == true">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Сборка/разборка мебели</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little">{{route.loaders}}x{{route.furnitureDisassemblyHourPrice}} ₽/ч</span>
-            </div>
-        </div>
-
-        <div class="row" ng-if="route.rigging == true">
-            <div class="ccol ccol-details-order-1 height25">
-                <span class="details-title little">Такелаж</span>
-            </div>
-            <div class="ccol ccol-details-order-2">
-                <span class="details-text little">{{route.loaders}}x{{route.riggingHourPrice}} ₽/ч</span>
-            </div>
-        </div> -->
-
                                                                 </div>
                                                                 <div class="ccol ccol-12"
                                                                     ng-if="addonsSettings.forwarding"
@@ -1722,7 +1634,7 @@
                                                 с 9:00 до 21:00</span>
                                             <span class="margin-top10" ng-show="isHoliday">Для оперативного оформления
                                                 <sub class="order-text"></sub> в выходные позвоните по телефону</span>
-                                            <span ng-show="isHoliday">8 (495) 120-45-45</span>
+                                            <span ng-show="isHoliday">8 (499) 190-63-17</span>
                                             <div class="close-link-wrapper"><a class="close-link"
                                                     ng-click="hideRecallPopup()">Закрыть</a></div>
                                         </div>
@@ -2786,13 +2698,7 @@
                                 </div>
 
                                 <div id="footer-up-end">
-                                    <a ng-if="IS_TK_SUBDOMAIN" class="footer-tel footer-link mgo-number"
-                                        href="tel:+74994555374">8 (499) 455-53-74</a>
-                                    <a ng-if="forCarriers" class="footer-tel footer-link" href="tel:+74953745334">8
-                                        (495) 374-53-34</a>
-                                    <a ng-if="!forCarriers && !IS_TK_SUBDOMAIN"
-                                        class="footer-tel footer-link mgo-number" href="tel:+74951204545">8 (495)
-                                        120-45-45</a>
+                                    <a class="footer-tel footer-link mgo-number" href="tel:+74991806317">8 (499) 190-63-17</a>
                                     <a href="mailto:info@gettruck.ru"
                                         class="footer-mail footer-link gettruck-email">info@gettruck.ru</a>
                                     <div>
@@ -2812,7 +2718,7 @@
                             </div>
                         </div>
 
-                        <div id="footer-bottom" class="footer-content">
+                       <!-- <div id="footer-bottom" class="footer-content">
                             <div class="footer-bottom-info">
                                 <div class="footer-address-new-container">
                                     <span class="inline-block footer-address-new">129347, г. Москва, Ярославское ш., д.
@@ -2826,7 +2732,7 @@
                             <a href='https://gettruck.ru/{{IS_TK_SUBDOMAIN&#32;?&#32;&quot;https://gettruck.ru/privacy-policy&quot;&#32;:&#32;&quot;/privacy-policy&quot;}}'
                                 class="footer-link">Политика конфиденциальности</a>
                             <span class="footer-copyright show-mobile">Gettruck &copy; 2024</span>
-                        </div>
+                        </div>-->
                     </footer>
                 </div>
 
