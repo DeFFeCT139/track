@@ -88,7 +88,7 @@
                                 <div ng-if="forCarriers" class="header-tel"><a href="tel:+74953745334">8 (495)
                                         374-53-34</a></div>
                                 <div ng-if="!forCarriers && !IS_TK_SUBDOMAIN" class="header-tel"><a class="mgo-number"
-                                        href="tel:+74951204545">8 (495) 120-45-45</a></div>
+                                        href="tel:+74991806317">8 (499) 180-63-17</a></div>
                             </div>
                             <div class="header-right-side">
                                 <div class="user-type-container selected-city-wrapper hide-tablet-wide"
@@ -311,6 +311,7 @@
                     <div ng-controller="companiesBusinessCtrl" class="text-color-lighter-black">
                         <section class="companies-business-main"
                             ng-class="{ 'companies-business-main-big': !isMobileSize && parentalInfo.points.length > 7}">
+                            <div class="business-main-background main-background "></div>
                             <div class="companies-wrapper relative">
                                 <div class="companies-business-main-text-container">
                                     <div class="companies-business-main-text">
@@ -321,11 +322,7 @@
                                             срывов</p>
                                     </div>
                                 </div>
-                                <div class="business-main-background main-background "></div>
-
-
-
-                                <link href="./content/customerCreateEditOrder.css@_=106441166.css" rel="stylesheet">
+                            <link href="./content/customerCreateEditOrder.css@_=106441166.css" rel="stylesheet">
 
                                 <div ng-controller="companiesNewCalcController">
                                     <div ng-show="!isMobileSize || (isMobileSize && newCalcIsVisible)"
@@ -1807,7 +1804,7 @@
                             </div>
                         </section>
                         <h1 class="companies-biznesu-new-features-header new-heading">
-                            Транспортная компания Gettruck
+                            Транспортная компания ЮНИАЛ
                         </h1>
                         <div class="companies-new-features-dark">
 
@@ -1818,15 +1815,14 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img
                                                     class="companies-new-feature-img companies-new-feature-img-calendar"
-                                                    src="./content/Images/svg-icons/companies-features-calendar.svg" />
+                                                    src="./content/Images/4. Время.png" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
-                                                    Заказ машины день-в-день
+                                                    Моментальный подбор и подача
                                                 </div>
                                                 <div class="companies-new-feature-desc">
-                                                    <p>Оформите заказ и мы подберем ближайший экипаж, подходящий под
-                                                        параметры вашего груза</p>
+                                                    <p>Подбор оптимального транспортного средства в крайчайшие сроки</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1834,14 +1830,14 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img
                                                     class="companies-new-feature-img companies-new-feature-img-rub"
-                                                    src="./content/Images/svg-icons/companies-features-rub.svg" />
+                                                    src="./content/Images/5. Банк.png" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
-                                                    Безналичный расчет
+                                                    Безналичный расчет, с и без НДС
                                                 </div>
                                                 <div class="companies-new-feature-desc">
-                                                    <p>Оплата по безналичному расчету <br /> для юридических лиц</p>
+                                                    <p>Работа с безналичной формой оплаты с <br /> возможностью отсрочки платежа</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1851,7 +1847,7 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img 
                                                     class="companies-new-feature-img companies-new-feature-img-note"
-                                                    src="./content/Images/svg-icons/companies-features-note.svg" />
+                                                    src="./content/Images/6. Документ.png" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
@@ -1859,7 +1855,7 @@
                                                 </div>
                                                 <div class="companies-new-feature-desc">
                                                     <p>Контроль водителем погрузки-разгрузки, оформление и возврат
-                                                        товаросопроводительных накладных</p>
+                                                        товарно-транспортных документов</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1867,14 +1863,14 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img 
                                                     class="companies-new-feature-img companies-new-feature-img-alfa"
-                                                    src="./content/Images/svg-icons/companies-features-alfa.svg" />
+                                                    src="./content/Images/7. Страхование.png" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
-                                                    Грузы застрахованы
+                                                    Страхование грузов
                                                 </div>
                                                 <div class="companies-new-feature-desc">
-                                                    <p>В АО “АльфаСтрахование” до 15 млн ₽</p>
+                                                    <p>Возможность страхования перевозимых грузов по вашим запросам</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1949,55 +1945,7 @@
                         </section>
 
                         <section class="companies-logistics dark-background">
-                            <div class="companies-wrapper">
-                                <h2>Управляйте логистикой онлайн</h2>
-                                <div class="companies-logistics-desc">
-                                    Оформляйте заказы онлайн, контролируйте все этапы грузоперевозок, взаиморасчеты и
-                                    документооборот.
-                                </div>
-                                <button class="btn new-button companies-logistics-button"
-                                    ng-click="headerAuthClick({isRegistration: true})">{{companyRegistrationState ==
-                                    registrationStageTypes.none ? "Зарегистрироваться" :
-                                    companyRegistrationText}}</button>
-                                <div class="companies-logistics-features-wrapper">
-                                    <div class="companies-logistics-feature">
-                                        <div class="companies-logistics-feature-img-wrapper">
-                                            <img class="companies-logistics-feature-img  " 
-                                                src="./content/img/logistics-feature-online.svg">
-                                        </div>
-                                        <div>
-                                            <div class="companies-logistics-feature-name">Оформление <br
-                                                    class="hide-mobile" />заказов онлайн</div>
-                                            <div class="companies-logistics-feature-desc">Укажите маршрут, параметры
-                                                автомобиля и дополнительные услуги</div>
-                                        </div>
-                                    </div>
-                                    <div class="companies-logistics-feature">
-                                        <div class="companies-logistics-feature-img-wrapper">
-                                            <img class="companies-logistics-feature-img  "
-                                                src="./content/img/logistics-feature-driver.webp">
-                                        </div>
-                                        <div>
-                                            <div class="companies-logistics-feature-name">Данные водителя <br
-                                                    class="hide-mobile" />и автомобиля</div>
-                                            <div class="companies-logistics-feature-desc">Доступны в заказе для
-                                                оформления пропусков и накладных</div>
-                                        </div>
-                                    </div>
-                                    <div class="companies-logistics-feature">
-                                        <div class="companies-logistics-feature-img-wrapper">
-                                            <img class="companies-logistics-feature-img companies-logistics-map-img "
-                                               src="./content/img/logistics-feature-map.webp">
-                                        </div>
-                                        <div>
-                                            <div class="companies-logistics-feature-name">Отслеживание<br
-                                                    class="hide-mobile" /> груза онлайн</div>
-                                            <div class="companies-logistics-feature-desc">Контролируйте все этапы
-                                                доставки в режиме реального времени</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A636d5196cecb5460a316668d7b383d83a1ccc34c53b37ab42ad6970f58a5b0b1&amp;source=constructor" height="492" frameborder="0"></iframe>
                         </section>
 
                         <section class="testimonials">
@@ -2299,9 +2247,8 @@
                                                 <h3>Регистрация и оформление заявки</h3>
                                                 <p>Если стоимость доставки устраивает - вы регистрируетесь на платформе
                                                     Gettruck и оформляете заказ через личный кабинет, или менеджер
-                                                    делает это за вас. Услуги оказываются на основании <a
-                                                        target="_blank" href="https://gettruck.ru/oferta-b2b">договора -
-                                                        оферты</a></p>
+                                                    делает это за вас. Услуги оказываются на основании  договора -
+                                                        оферты</p>
                                             </div>
                                         </div>
                                     </div>
