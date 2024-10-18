@@ -12,7 +12,7 @@
     <link sizes="16x16" href="./content/icons/Favicon_16x16.ico" rel="shortcut icon" type="image/x-icon" />
     <link sizes="32x32" href="./content/icons/Favicon_32x32.ico" rel="shortcut icon" type="image/x-icon" />
     <link sizes="48x48" href="./content/icons/Favicon_48x48.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="preload" fetchpriority="high" as="image" href="./Content/img/main-background.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="./content/img/main-background.webp" type="image/webp">
     <meta name="description"
         content="Транспортная компания грузоперевозки по Москве и области. Перевозки грузов для бизнеса и юридических лиц - компания Gettruck. Разместите заказ на сайте и мы найдем для Вас самый выгодный вариант доставки груза прямо сейчас! Тел. для связи +7 (495) 120-45-45">
     <link rel="preload" as="style" href="./content/styles.min.css@_=106441166.css" onload="this.rel='stylesheet'">
@@ -143,7 +143,7 @@
                             </div>
                             <div class="header-back show-tablet-wide" ng-if="activeSubMenu != null"
                                 ng-click="setActiveSubMenu(null)">
-                                <img src="./Content/Images/svg-icons/header-arrow.svg" />
+                                <img src="./content/Images/svg-icons/header-arrow.svg" />
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                         <div class="menu-item-new-wrapper">
                                             <input autocomplete="new-password" ng-model="citiesSearchText"
                                                 ng-keyup=searchCity($event) placeholder="Поиск" type="text" />
-                                            <img src="./Content/Images/svg-icons/icon-search-gray.svg"
+                                            <img src="./content/Images/svg-icons/icon-search-gray.svg"
                                                 class="cities-search-icon" />
                                         </div>
                                     </li>
@@ -325,7 +325,7 @@
 
 
 
-                                <link href="./Content/customerCreateEditOrder.css@_=106441166.css" rel="stylesheet">
+                                <link href="./content/customerCreateEditOrder.css@_=106441166.css" rel="stylesheet">
 
                                 <div ng-controller="companiesNewCalcController">
                                     <div ng-show="!isMobileSize || (isMobileSize && newCalcIsVisible)"
@@ -1818,7 +1818,7 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img
                                                     class="companies-new-feature-img companies-new-feature-img-calendar"
-                                                    src="./Content/Images/svg-icons/companies-features-calendar.svg" />
+                                                    src="./content/Images/svg-icons/companies-features-calendar.svg" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
@@ -1834,7 +1834,7 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img
                                                     class="companies-new-feature-img companies-new-feature-img-rub"
-                                                    src="./Content/Images/svg-icons/companies-features-rub.svg" />
+                                                    src="./content/Images/svg-icons/companies-features-rub.svg" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
@@ -1851,7 +1851,7 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img 
                                                     class="companies-new-feature-img companies-new-feature-img-note"
-                                                    src="./Content/Images/svg-icons/companies-features-note.svg" />
+                                                    src="./content/Images/svg-icons/companies-features-note.svg" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
@@ -1867,7 +1867,7 @@
                                             <div class="companies-new-feature-img-wrapper">
                                                 <img 
                                                     class="companies-new-feature-img companies-new-feature-img-alfa"
-                                                    src="./Content/Images/svg-icons/companies-features-alfa.svg" />
+                                                    src="./content/Images/svg-icons/companies-features-alfa.svg" />
                                             </div>
                                             <div>
                                                 <div class="companies-new-feature-name">
@@ -1917,9 +1917,9 @@
                                         <div ng-repeat="item in myTariffItems" class="companiees-tariff-item">
                                             <div>
                                                 <img  class="truck-image"
-                                                    src="./Content/Images/cars/companies-truck-{{item.picIndex}}.jpg" />
+                                                    src="./content/Images/cars/companies-truck-{{item.picIndex}}.jpg" />
                                             </div>
-                                            <img src="./Content/Images/svg-icons/snowflake.svg" class="snowflake"
+                                            <img src="./content/Images/svg-icons/snowflake.svg" class="snowflake"
                                                 ng-show="selectedTariffTypeCarousel == tariffChoices.Refrigerator" />
                                             <div class="ref-info-tooltip">
                                                 <div>С рефрижератором</div>
@@ -1963,7 +1963,7 @@
                                     <div class="companies-logistics-feature">
                                         <div class="companies-logistics-feature-img-wrapper">
                                             <img class="companies-logistics-feature-img  " 
-                                                src="./Content/img/logistics-feature-online.svg">
+                                                src="./content/img/logistics-feature-online.svg">
                                         </div>
                                         <div>
                                             <div class="companies-logistics-feature-name">Оформление <br
@@ -1975,7 +1975,7 @@
                                     <div class="companies-logistics-feature">
                                         <div class="companies-logistics-feature-img-wrapper">
                                             <img class="companies-logistics-feature-img  "
-                                                src="./Content/img/logistics-feature-driver.webp">
+                                                src="./content/img/logistics-feature-driver.webp">
                                         </div>
                                         <div>
                                             <div class="companies-logistics-feature-name">Данные водителя <br
@@ -1987,7 +1987,7 @@
                                     <div class="companies-logistics-feature">
                                         <div class="companies-logistics-feature-img-wrapper">
                                             <img class="companies-logistics-feature-img companies-logistics-map-img "
-                                               src="./Content/img/logistics-feature-map.webp">
+                                               src="./content/img/logistics-feature-map.webp">
                                         </div>
                                         <div>
                                             <div class="companies-logistics-feature-name">Отслеживание<br
@@ -2018,7 +2018,7 @@
                                                 <div class="testimonials-item-body testimonials-item-body-big"
                                                     ng-class="{'opened': b[0]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2049,7 +2049,7 @@
                                                 <div class="testimonials-item-body testimonials-item-body-big"
                                                     ng-class="{'opened': b[1]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-4.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-4.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2080,7 +2080,7 @@
                                                 <div class="testimonials-item-body testimonials-item-body-big"
                                                     ng-class="{'opened': b[2]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2104,7 +2104,7 @@
                                         <div class="testimonials-item">
                                             <div class="testimonials-item-head">
                                                 <img class="testimonials-item-img display-flex-center"
-                                                    src="./Content/img/testimonials-reviews/review-1.webp" alt="">
+                                                    src="./content/img/testimonials-reviews/review-1.webp" alt="">
                                                 <span class="testimonials-author">Маргарита, Москва</span>
                                             </div>
                                             <a target="_blank"
@@ -2112,7 +2112,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[3]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2128,7 +2128,7 @@
                                         <div class="testimonials-item">
                                             <div class="testimonials-item-head">
                                                 <img class="testimonials-item-img display-flex-center"
-                                                    src="./Content/img/testimonials-reviews/review-2.webp" alt="">
+                                                    src="./content/img/testimonials-reviews/review-2.webp" alt="">
                                                 <span class="testimonials-author">Билан, Москва</span>
                                             </div>
                                             <a target="_blank"
@@ -2136,7 +2136,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[4]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2151,7 +2151,7 @@
                                         <div class="testimonials-item">
                                             <div class="testimonials-item-head">
                                                 <img class="testimonials-item-img display-flex-center"
-                                                    src="./Content/img/testimonials-reviews/review-3.webp" alt="">
+                                                    src="./content/img/testimonials-reviews/review-3.webp" alt="">
                                                 <span class="testimonials-author">Юрий, Москва</span>
                                             </div>
                                             <a target="_blank"
@@ -2159,7 +2159,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[5]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2182,7 +2182,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[6]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2207,7 +2207,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[7]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2223,7 +2223,7 @@
                                         <div class="testimonials-item">
                                             <div class="testimonials-item-head">
                                                 <img class="testimonials-item-img display-flex-center"
-                                                    src="./Content/img/testimonials-reviews/review-6.jpg" alt="">
+                                                    src="./content/img/testimonials-reviews/review-6.jpg" alt="">
                                                 <span class="testimonials-author">Карина Засорина, Москва</span>
                                             </div>
                                             <a target="_blank"
@@ -2231,7 +2231,7 @@
                                                 class="">
                                                 <div class="testimonials-item-body " ng-class="{'opened': b[8]}">
                                                     <div class="testimonials-item-stars">
-                                                        <img src="./Content/Images/svg-icons/testimonials-stars-5.svg"
+                                                        <img src="./content/Images/svg-icons/testimonials-stars-5.svg"
                                                             alt="" width="91">
                                                     </div>
                                                     <div class="testimonials-item-description">
@@ -2251,7 +2251,7 @@
 
                         <section class="companies-clients dark-background">
                             <div class="companies-wrapper companies-clients-wrapper">
-                                <img  src="./Content/img/companies-clients.webp" />
+                                <img  src="./content/img/companies-clients.webp" />
                                 <div>
                                     <h2>Нам доверяют <br class="hide-tablet-wide" />1 000 + клиентов</h2>
                                     <p>
@@ -2271,11 +2271,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img class="delivery-image-1"
-                                                src="./Content/img/deliveries-item-1.webp">
+                                                src="./content/img/deliveries-item-1.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 1</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2288,11 +2288,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img  class="delivery-image-2"
-                                                src="./Content/img/deliveries-item-2.webp">
+                                                src="./content/img/deliveries-item-2.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 2</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2308,11 +2308,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img  class="delivery-image-3"
-                                                src="./Content/img/deliveries-item-3.webp">
+                                                src="./content/img/deliveries-item-3.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 3</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2327,11 +2327,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img class="delivery-image-4"
-                                                src="./Content/img/deliveries-item-4.webp">
+                                                src="./content/img/deliveries-item-4.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 4</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2345,11 +2345,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img class="delivery-image-5"
-                                                src="./Content/img/deliveries-item-5.webp">
+                                                src="./content/img/deliveries-item-5.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 5</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2363,11 +2363,11 @@
                                     <div>
                                         <div class="text-align-center">
                                             <img class="delivery-image-6"
-                                                src="./Content/img/deliveries-item-6.webp">
+                                                src="./content/img/deliveries-item-6.webp">
                                         </div>
                                         <div>
                                             <div class="deliveries-step font-weight-700 flex-vertical-center">
-                                                <img src="./Content/Images/svg-icons/deliveries-circle.svg">
+                                                <img src="./content/Images/svg-icons/deliveries-circle.svg">
                                                 <span>Шаг 6</span>
                                             </div>
                                             <div class="deliveries-step-text">
@@ -2397,20 +2397,20 @@
                                 <div class="companies-city-features-wrapper">
                                     <div class="companies-city-feature">
                                         <img class="companies-city-feature-img" fetchpriority="low"
-                                            src="./Content/img/cities-img-1.png">
+                                            src="./content/img/cities-img-1.png">
                                         <div class="companies-city-feature-desc">Доставка грузов юридическим и
                                             физическим лицам</div>
                                     </div>
                                     <div class="companies-city-feature">
                                         <img class="companies-city-feature-img" fetchpriority="low"
-                                            src="./Content/img/cities-img-2.png">
+                                            src="./content/img/cities-img-2.png">
                                         <div class="companies-city-feature-desc">Доставка в распределительные центры и
                                             транспортные компании</div>
                                     </div>
                                     <div class="companies-city-feature">
                                         <a href="perevozka-refrijeratorami.html" class="no-styling">
                                             <img class="companies-city-feature-img"  fetchpriority="low"
-                                                src="./Content/img/cities-img-3.png">
+                                                src="./content/img/cities-img-3.png">
                                             <div class="companies-city-feature-desc">Грузоперевозки с поддержанием
                                                 температурного режима</div>
                                         </a>
